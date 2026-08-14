@@ -1,17 +1,19 @@
 
 
+
 import java.util.*;
 
-public class linersearch01 {
+public class linearsearch01 {
 
     public static void main(String[] args) {
 
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int target = 5;
+        int target = 10;
 
-        int ans = linearSearch(arr, target);
+        // int answer = linearSearch(arr, target);
+        // System.out.println(answer);
 
-        System.out.println(ans);
+        System.out.println( linearSearch(arr, target));
     }
 
     static int linearSearch(int arr[], int target) {
